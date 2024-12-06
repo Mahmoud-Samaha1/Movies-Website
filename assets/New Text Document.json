@@ -1,0 +1,397 @@
+{
+  "data": {
+    "movies": {
+      "__typename": "TitleSearchConnection",
+      "edges": [
+        {
+          "node": {
+            "__typename": "Title",
+            "id": "tt1262426",
+            "titleText": {
+              "text": "Wicked",
+              "isOriginalTitle": false
+            },
+            "originalTitleText": {
+              "text": "Wicked: Part I",
+              "isOriginalTitle": true
+            },
+            "releaseYear": {
+              "__typename": "YearRange",
+              "year": 2024,
+              "endYear": null
+            },
+            "releaseDate": {
+              "__typename": "ReleaseDate",
+              "month": 11,
+              "day": 22,
+              "year": 2024,
+              "country": {
+                "id": "US"
+              },
+              "restriction": null,
+              "attributes": [],
+              "displayableProperty": {
+                "qualifiersInMarkdownList": null
+              }
+            },
+            "titleType": {
+              "__typename": "TitleType",
+              "id": "movie",
+              "text": "Movie",
+              "categories": [
+                {
+                  "id": "movie",
+                  "text": "Movie",
+                  "value": "movie"
+                }
+              ],
+              "canHaveEpisodes": false,
+              "isEpisode": false,
+              "isSeries": false,
+              "displayableProperty": {
+                "value": {
+                  "plainText": ""
+                }
+              }
+            },
+            "primaryImage": {
+              "__typename": "Image",
+              "id": "rm2898355201",
+              "url": "https://m.media-amazon.com/images/M/MV5BOWMwYjYzYmMtMWQ2Ni00NWUwLTg2MzAtYzkzMDBiZDIwOTMwXkEyXkFqcGc@._V1_.jpg",
+              "height": 1200,
+              "width": 758
+            },
+            "metacritic": {
+              "metascore": {
+                "score": 73
+              }
+            },
+            "principalCredits": [
+              {
+                "credits": [
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm7248827",
+                      "nameText": {
+                        "text": "Cynthia Erivo"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm1206415360",
+                        "url": "https://m.media-amazon.com/images/M/MV5BMTcyMTI3NzI1Nl5BMl5BanBnXkFtZTgwNjQ3Njk2NjM@._V1_.jpg",
+                        "height": 855,
+                        "width": 605
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm3812858",
+                      "nameText": {
+                        "text": "Ariana Grande"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm354254081",
+                        "url": "https://m.media-amazon.com/images/M/MV5BM2JhZWJmMDEtNTU5MS00YmQ3LTk1NjMtOGFlMjM2MjZlNjg5XkEyXkFqcGc@._V1_.jpg",
+                        "height": 1080,
+                        "width": 1920
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm0000156",
+                      "nameText": {
+                        "text": "Jeff Goldblum"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm1305587713",
+                        "url": "https://m.media-amazon.com/images/M/MV5BZWIxM2YzMTEtMjFiNy00NWQ2LWI0Y2MtZGVmYjM0YWFmZThmXkEyXkFqcGc@._V1_.jpg",
+                        "height": 698,
+                        "width": 560
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm0000706",
+                      "nameText": {
+                        "text": "Michelle Yeoh"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm3057562112",
+                        "url": "https://m.media-amazon.com/images/M/MV5BMTg0NTI0NDkzOF5BMl5BanBnXkFtZTcwMjYwMTIwNw@@._V1_.jpg",
+                        "height": 2048,
+                        "width": 1320
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "certificate": {
+              "id": "ce5980117",
+              "ratingsBody": {
+                "id": "MPAA",
+                "text": "MPAA"
+              },
+              "ratingReason": "Rated PG for some scary action, thematic material and brief suggestive material.",
+              "rating": "PG"
+            },
+            "plot": {
+              "id": "po7718536",
+              "plotText": {
+                "plainText": "Elphaba, a misunderstood young woman because of her green skin, and Glinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads."
+              }
+            },
+            "titleGenres": {
+              "__typename": "TitleGenres",
+              "genres": [
+                {
+                  "genre": {
+                    "genreId": "Fantasy",
+                    "text": "Fantasy"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Musical",
+                    "text": "Musical"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Romance",
+                    "text": "Romance"
+                  }
+                }
+              ]
+            },
+            "ratingsSummary": {
+              "aggregateRating": 8.1
+            },
+            "canRate": {
+              "isRatable": true
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "__typename": "PageInfo",
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "startCursor": "eyJlc1Rva2VuIjpbIjIiXSwiZmlsdGVyIjoie1widG9wTWV0ZXJUaXRsZXNUeXBlXCI6XCJNT1ZJRVwifSJ9",
+        "endCursor": "eyJlc1Rva2VuIjpbIjM3Il0sImZpbHRlciI6IntcInRvcE1ldGVyVGl0bGVzVHlwZVwiOlwiTU9WSUVcIn0ifQ=="
+      }
+    },
+    "tv": {
+      "__typename": "TitleSearchConnection",
+      "edges": [
+        {
+          "node": {
+            "__typename": "Title",
+            "id": "tt11126994",
+            "titleText": {
+              "text": "Arcane",
+              "isOriginalTitle": false
+            },
+            "originalTitleText": {
+              "text": "Arcane: League of Legends",
+              "isOriginalTitle": true
+            },
+            "releaseYear": {
+              "__typename": "YearRange",
+              "year": 2021,
+              "endYear": 2024
+            },
+            "releaseDate": {
+              "__typename": "ReleaseDate",
+              "month": 11,
+              "day": 6,
+              "year": 2021,
+              "country": {
+                "id": "US"
+              },
+              "restriction": null,
+              "attributes": [],
+              "displayableProperty": {
+                "qualifiersInMarkdownList": null
+              }
+            },
+            "titleType": {
+              "__typename": "TitleType",
+              "id": "tvSeries",
+              "text": "TV Series",
+              "categories": [
+                {
+                  "id": "tv",
+                  "text": "TV",
+                  "value": "tv"
+                }
+              ],
+              "canHaveEpisodes": true,
+              "isEpisode": false,
+              "isSeries": true,
+              "displayableProperty": {
+                "value": {
+                  "plainText": "TV Series"
+                }
+              }
+            },
+            "primaryImage": {
+              "__typename": "Image",
+              "id": "rm1038512129",
+              "url": "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_.jpg",
+              "height": 2700,
+              "width": 2160
+            },
+            "metacritic": null,
+            "principalCredits": [
+              {
+                "credits": [
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm1204760",
+                      "nameText": {
+                        "text": "Kevin Alejandro"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm2637689856",
+                        "url": "https://m.media-amazon.com/images/M/MV5BMTA0NDkyNzI0MTBeQTJeQWpwZ15BbWU4MDI4ODUxODUx._V1_.jpg",
+                        "height": 3888,
+                        "width": 2592
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm2794962",
+                      "nameText": {
+                        "text": "Hailee Steinfeld"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm3989024257",
+                        "url": "https://m.media-amazon.com/images/M/MV5BYjg0MjA4OGEtMTc1ZS00ZmJhLTgyYjItMTY4YjI0NjVjNjllXkEyXkFqcGc@._V1_.jpg",
+                        "height": 1200,
+                        "width": 1200
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm3480246",
+                      "nameText": {
+                        "text": "Ella Purnell"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm4124472065",
+                        "url": "https://m.media-amazon.com/images/M/MV5BZGNkMWI4ZmItN2Y2Mi00Mzc1LWExYTctMjMzMjhmMDE0NWVkXkEyXkFqcGc@._V1_.jpg",
+                        "height": 11608,
+                        "width": 8708
+                      }
+                    }
+                  },
+                  {
+                    "name": {
+                      "__typename": "Name",
+                      "id": "nm1648520",
+                      "nameText": {
+                        "text": "Katie Leung"
+                      },
+                      "primaryImage": {
+                        "__typename": "Image",
+                        "id": "rm463356673",
+                        "url": "https://m.media-amazon.com/images/M/MV5BZDE3NDY1ZjItYTg2Ny00Y2JjLWEzNTItMzdjOGQ5OTBhNjVhXkEyXkFqcGc@._V1_.jpg",
+                        "height": 6000,
+                        "width": 4000
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "certificate": {
+              "id": "ce3353548",
+              "ratingsBody": null,
+              "ratingReason": null,
+              "rating": "TV-14"
+            },
+            "plot": {
+              "id": "po4803766",
+              "plotText": {
+                "plainText": "Set in Utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League of Legends champions and the power that will tear them apart."
+              }
+            },
+            "titleGenres": {
+              "__typename": "TitleGenres",
+              "genres": [
+                {
+                  "genre": {
+                    "genreId": "Animation",
+                    "text": "Animation"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Action",
+                    "text": "Action"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Adventure",
+                    "text": "Adventure"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Drama",
+                    "text": "Drama"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Fantasy",
+                    "text": "Fantasy"
+                  }
+                },
+                {
+                  "genre": {
+                    "genreId": "Sci-Fi",
+                    "text": "Sci-Fi"
+                  }
+                }
+              ]
+            },
+            "ratingsSummary": {
+              "aggregateRating": 9
+            },
+            "canRate": {
+              "isRatable": true
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "__typename": "PageInfo",
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "startCursor": "eyJlc1Rva2VuIjpbIjEiXSwiZmlsdGVyIjoie1widG9wTWV0ZXJUaXRsZXNUeXBlXCI6XCJUVlwifSJ9",
+        "endCursor": "eyJlc1Rva2VuIjpbIjQwIl0sImZpbHRlciI6IntcInRvcE1ldGVyVGl0bGVzVHlwZVwiOlwiVFZcIn0ifQ=="
+      }
+    }
+  }
+}
